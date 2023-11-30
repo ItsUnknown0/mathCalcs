@@ -11,6 +11,8 @@ def userInput():
     else:
         calculations(int(numberOfSides), int(sideLength))
 
+# Solves for surface area of any regular polygon
+
 def calculations(numberOfSides, sideLength):
 
     totalPolyAngle = (numberOfSides - 2)*180
